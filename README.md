@@ -1,7 +1,3 @@
-https://angular.love/get-to-know-the-afterrendereffect
-https://riegler.fr/blog/2024-12-31-lifecycle-hook-less
-https://angular.schule/blog/2024-11-effect-afterrendereffect
-
 # Angular 19 Signal APIs replace LifeCycle Hooks
 
 No, There is no deprecation, but it is true that new Signal APIs might be a better fit than the lifecycle hooks.
