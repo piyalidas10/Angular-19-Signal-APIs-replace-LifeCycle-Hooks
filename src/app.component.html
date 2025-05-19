@@ -1,0 +1,20 @@
+<h2>Angular 19 Signal Replace LifeCycle Hooks</h2>
+<app-after></app-after> -->
+<app-icons [options]="currencies">
+  <span *appIcon="let currency" class="currency-option">
+    <img
+      [src]="'/icons/' + currency + '.svg'"
+      alt="{{ currency }}"
+      class="currency-icon"
+    />
+    {{ currency }}
+  </span>
+</app-icons>
+<hr size="5" color="#000000" />
+<button class="btn" (click)="updateRates()">Update rates</button>
+&nbsp;
+<button class="btn" (click)="noupdateRates()">No Update rates</button>
+&nbsp;
+<app-check [rate]="rate"></app-check>
+<hr size="5" color="#000000" />
+<app-viewcheck #child></app-viewcheck>

@@ -1,0 +1,20 @@
+.currency-option {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+
+  font-family: Roboto;
+  font-size: 0.9em;
+}
+
+.currency-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  background: #0000cc;
+  color: #ffffff;
+  padding: 5px 10px;
+}

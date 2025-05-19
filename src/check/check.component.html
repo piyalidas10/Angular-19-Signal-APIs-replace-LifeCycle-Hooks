@@ -1,0 +1,11 @@
+@if (diff()) {
+<span
+  class="badge"
+  [class.bg-success]="diff() > 0"
+  [class.bg-danger]="diff() < 0"
+>
+  {{ diff() }}
+</span>
+} @else {
+<ng-template #noDiff><span class="badge"> No difference </span></ng-template>
+}
